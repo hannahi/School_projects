@@ -1,15 +1,9 @@
-Järjestelmän tarkoitus
+Kurssisuunnitelma
 
-Tarkoitus on toteuttaa sovellus, joka auttaa opiskelijoita opintojensa suunnittelussa. 
-Opiskelija pystyy lisäämään haluamiaan kursseja valmiista listasta, josta löytyvät koko
-lukuvuoden kurssit kurssityypin ja periodin mukaan listattuna. Valitut kurssit näkyvät selkeässä näkymässä periodeittain. 
-Näkymässä on tiedot kurssin yksityiskohdista sekä yhteenlasketuista opintopistemääristä periodikohtaisesti. 
-Periodeja ja yksittäisiä kursseja voi myös poistaa näkymästä.
+Tarkoitus on toteuttaa sovellus, joka auttaa opiskelijoita opintojensa suunnittelussa. Opiskelija pystyy lisäämään haluamiaan kursseja valmiista listasta, josta löytyvät koko lukuvuoden kurssit kurssityypin ja periodin mukaan listattuna. Valitut kurssit näkyvät selkeässä näkymässä periodeittain. Näkymässä on tiedot kurssin yksityiskohdista sekä yhteenlasketuista opintopistemääristä periodikohtaisesti. Periodeja ja yksittäisiä kursseja voi myös poistaa näkymästä.
 
-Järjestelmä luo valituista kursseista lukujärjestyksen, josta voi tarkistaa kurssien mahdolliset
-päällekkäisyydet. Lukujärjestyksessä näkyvät kaikki kurssien luento- ja laskuharjoitusajat ja opetussalit.
+Järjestelmä luo valituista kursseista lukujärjestyksen, josta voi tarkistaa kurssien mahdolliset päällekkäisyydet. Lukujärjestyksessä näkyvät kaikki kurssien luento- ja laskuharjoitusajat ja opetussalit.
 
-Rekisteröityneenä käyttäjänä opiskelijalla on järjestelmässä tiedot omista kursseistaan, joten hänen on helppo 
-muokata ja suunnitella opintojaan sekä tulostaa itselleen näistä uudet lukujärjestykset.
+Rekisteröityneenä käyttäjänä opiskelijalla on järjestelmässä tiedot omista kursseistaan, joten hänen on helppo muokata ja suunnitella opintojaan sekä tulostaa itselleen näistä uudet lukujärjestykset.
 
 Järjestelmä vaatii kirjautumisen.
