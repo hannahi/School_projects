@@ -1,0 +1,7 @@
+table {border-collapse:collapse;}
+.pva, .aika {background-color:#A7C942;color:#ffffff;text-align:center;font:15px arial;height:50px;width:100px}
+table, td, tr {border:1px solid #98bf21;}
+td {height:60px;width:200px;font:12px arial;color:#A7C942;}
+#lukkaricaption {color:#A7C942;font:20px arial,sans-serif;width:620px;}
+.nappula {color:#A7C942;font:15px arial,sans-serif; font-weight: bold; background-color:#ffffff; border: 1px solid; border-color:#A7C942;}
+ 

@@ -1,0 +1,9 @@
+body {background-color:#ffffff;}
+#lomake {float:center;color:#A7C942;font:15px arial,sans-serif;width:300px; padding:25px 50px 25px 70px; 
+border:5px solid; border-color:#A7C942; margin:0px auto; margin-top:12%; border-top-left-radius:2em; 
+border-top-right-radius:2em; border-bottom-left-radius:2em; border-bottom-right-radius:2em;}
+a:link, a:visited {color:#A7C942;font:15px arial,sans-serif; font-weight: bold; text-decoration:none;}
+button {color:#A7C942;font:15px arial,sans-serif; font-weight: bold; background-color:#ffffff; border: 1px solid; border-color:#A7C942;}
+#uusi {float:center;color:#A7C942;font:15px arial,sans-serif;width:300px; padding:30px 20px 15px 100px; 
+border:5px solid; border-color:#A7C942; margin:0px auto; margin-top:12%; border-top-left-radius:2em; 
+border-top-right-radius:2em; border-bottom-left-radius:2em; border-bottom-right-radius:2em;}

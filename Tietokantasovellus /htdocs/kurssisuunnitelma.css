@@ -1,0 +1,30 @@
+html {background-color:#EAF2D3;}
+h1 {color:#ffffff;padding:6px 7px 2px 7px;font:30px arial,sans-serif;float:left;margin-left:2%;}
+#ylapalkki {background-color:#A7C942;margin-top:2%;margin-bottom:3%;border-top-left-radius:2em; 
+border-top-right-radius:2em; border-bottom-left-radius:2em; border-bottom-right-radius:2em;overflow:auto;}
+#kurssit {border-style:"solid"; border-width:5px;}
+#lista {padding:0px 7px 0px 0px;font:15px arial,sans-serif; float:left; width:300px; height:900px; overflow:auto;margin-left:10px;}
+.otsikko1 {color:#ffffff;padding:3px 7px 2px 10px;border:1px solid #98bf21;font:20px arial,sans-serif;background-color:#A7C942;border-top-left-radius:2em; 
+border-top-right-radius:2em; border-bottom-left-radius:2em; border-bottom-right-radius:2em;}
+.otsikko2 {color:#A7C942;font:15px arial,sans-serif;}
+.taulukot {margin-left:25%;margin-top:2%;}
+.napit {margin:5px 0px 13px 156px;}
+td, th {border:1px solid #98bf21;left;padding-top:5px;padding-bottom:4px;}
+th {color:#ffffff;background-color:#A7C942;}
+td {border:1px solid #98bf21;padding:3px 7px 2px 7px;text-align:left;font:15px arial,sans-serif;}
+td+td+td {text-align:center;}
+.col0 {width:150px;background-color:#EAF2D3;color:#A7C942;border-color:#EAF2D3;font:20px arial,sans-serif;}
+.col1 {width:87px;}
+.col2 {width:341px;}
+.col3 {width:70px;}
+.col4 {width:70px;}
+.col5 {width:26px;}
+.col6 {width:200px;}
+#periodit {float:center;margin-left:25%;margin-top:59px;padding:4px 7px 3px 10px;border:1px solid #98bf21;color:#ffffff;font:20px arial,sans-serif;background-color:#A7C942;border-top-left-radius:2em; 
+border-top-right-radius:2em; border-bottom-left-radius:2em; border-bottom-right-radius:2em;}
+.op {font:15px arial,sans-serif;width:602px;color:#A7C942;}
+.vari {background-color:#A7C942;}
+a:link, a:visited {color:#ffffff;font:15px arial,sans-serif; font-weight: bold; text-decoration:none;}
+button {color:#A7C942;font:15px arial,sans-serif; font-weight: bold; background-color:#EAF2D3; border: 1px solid; border-color:#A7C942;}
+#tervehdys {color:#ffffff;font:15px arial,sans-serif; font-weight:bold; text-decoration:none;float:right;margin-right:3%;margin-top:3%;overflow:auto;}
+#lisaysnappi {margin-top:10px;}
