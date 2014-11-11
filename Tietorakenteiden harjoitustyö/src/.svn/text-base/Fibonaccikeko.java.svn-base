@@ -1,0 +1,104 @@
+/**
+ *
+ * @author hanna
+ */
+
+//http://www.java2s.com/Code/Java/Collections-Data-Structure/Fibonacciheapdatastructure.htm
+public class Fibonaccikeko {
+
+    private FibonaccikekoSolmu<Integer> minSolmu;
+    private int solmujenLkm;
+
+    public Fibonaccikeko() {
+
+    }
+
+    public boolean onkoTyhjä() {
+        return minSolmu == null;
+    }
+
+    public FibonaccikekoSolmu<Integer> minimi() {
+        return minSolmu;
+    }
+
+    public int getKoko() {
+        return solmujenLkm;
+    }
+
+    public void lisaa(FibonaccikekoSolmu<Integer> solmu, double avain) {
+        solmu.avain = avain;
+        if (minSolmu != null) {
+            solmu.vasen = minSolmu;
+            solmu.oikea = minSolmu.oikea;
+            minSolmu.oikea = solmu;
+            solmu.oikea.vasen = solmu;
+
+            if (avain < minSolmu.avain) {
+                minSolmu = solmu;
+            }
+        } else {
+            minSolmu = solmu;
+        }
+        solmujenLkm++;
+    }
+
+    public void poista(FibonaccikekoSolmu<Integer> solmu) {
+        // make x as small as possible
+        decreaseKey(solmu, Double.NEGATIVE_INFINITY);
+
+        // remove the smallest, which decreases n also
+        poistaMinimi();
+    }
+
+    public void decreaseKey(FibonaccikekoSolmu<Integer> solmu, double uusiAvain) {
+//        if (avain > solmu.avain) {
+//            throw new IllegalArgumentException(
+//                "decreaseKey() got larger key value");
+//        }
+
+        solmu.avain = uusiAvain;
+
+        FibonaccikekoSolmu<Integer> y = solmu.vanhempi;
+
+        if ((y != null) && (x.key < y.key)) {
+            cut(x, y);
+            cascadingCut(y);
+        }
+
+        if (x.key < minNode.key) {
+            minNode = x;
+        }
+    }
+}
+
+class FibonaccikekoSolmu<Integer> {
+
+    int data;
+    FibonaccikekoSolmu<Integer> lapsi;
+    FibonaccikekoSolmu<Integer> vasen;
+    FibonaccikekoSolmu<Integer> oikea;
+    FibonaccikekoSolmu<Integer> vanhempi;
+    boolean vari;
+    double avain;
+    int aste;
+
+    public FibonaccikekoSolmu(int data, double avain) {
+        oikea = this;
+        vasen = this;
+        this.data = data;
+        this.avain = avain;
+    }
+
+    public double getKey() {
+        return avain;
+    }
+
+    public int getData() {
+        return data;
+    }
+
+    @Override
+    public String toString() {
+        return String.valueOf(data);
+    }
+}
